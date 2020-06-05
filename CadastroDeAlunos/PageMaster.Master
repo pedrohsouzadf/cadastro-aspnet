@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PageMaster.master.cs" Inherits="CadastroDeAlunos.PageMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sistema de Plano de Saúde</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <
+</head>
+<body class="is-preload">
+    <form id="form1" runat="server">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Main -->
+            <div id="main">
+                <div class="inner">
+                    <!-- Header -->
+                    <header id="header">
+                        <a href="Default.aspx" class="logo"><strong>Bem vindo ao </strong>Sistema de Cadastro de Alunos</a>
+                    
+                    </header>
+                    <!-- Corpo -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <!--HTML da Páginas Filhos-->
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div id="sidebar">
+                <div class="inner">
+                   
+                <nav id="menu">
+                        <header class="major">
+                            <h2>Menu</h2>
+                        </header>
+                        <ul>
+                            <li><a href="Default.aspx">Principal</a></li>
+                            <li><a href="Cadastro.aspx">Cadastrar alunos</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                               
+                    <footer id="footer">
+                        <p class="copyright">&copy; Sistema de Cadastro de Alunos</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
